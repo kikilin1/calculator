@@ -1,0 +1,29 @@
+.container{
+    width:400px;
+    background-color:#222;
+    position:relative;
+    left:15px;
+    top:200px;
+    height:400px;
+}
+.output{
+    margin: left;
+background-color:#82b1ff;
+height:100px;
+width:400px;
+border-radius:10px;
+position:relative;
+top:10px;
+} 
+
+.keypad{
+    position:relative;
+    left:15px;
+    top:100px;
+    height:400px;
+}
+.btn{
+    padding-top:5px;
+  
+
+}
