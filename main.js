@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var num1;
+    var num1 = 0;
     var sign;
-    var num2;
+    var num2 =0;
     $(".num").on("click", function(){
         var valueClicked = $(this).attr("val");
         
@@ -13,16 +13,18 @@ $(document).ready(function(){
     $(".sign").on("click",function(){
         sign = $(this).attr("val");
         num1=$("#screen").html();
-        $("#screen").html(0);
+        $("#screen").html("");
     
     
     });
     $(".c").on("click", function(){
-        $("#screen").html(0);
+        $("#screen").html("");
     });
     $(".e").on("click", function(){
         num2=$("#screen").html();
         var result = eval(num1+sign+num2);
+        $("#screen").html(result);
+        
         
         
         
